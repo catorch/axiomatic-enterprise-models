@@ -1,5 +1,4 @@
 # Modal Formalization of Brand Value
-*By catorch*
 
 ## Main Definitions
 
