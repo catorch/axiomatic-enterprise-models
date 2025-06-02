@@ -1,0 +1,708 @@
+Persona Creation and Usage Toolkit
+George Olsen
+george@interactionbydesign.com
+30 March 2004
+Overview
+This toolkit provides resources for a variety of situations. Pick and choose what's appropriate for your's. My goal is to enable you to use personas in several ways:
+
+Allow you and your team to live and breathe your users' world as if they were a close friend or part of the family.
+Allow you as a designer to filter out your own personal quirks (or those of real users that you interviewed) and focus instead on behaviors and motivations that are typical of a broader range of users, while still being able to relate to users as individuals.
+Use this knowledge to make better decisions at the strategic level of matching the product's focus and purpose to users needs and goals.
+Use this knowledge to make better design decisions at the tactical level of how functionality, content and sensory elements are structured and presented.
+Use it as a tool to make the design trade-offs that are inevitable in any product's development.
+To achieve these goals, the toolkit enables you to build up detailed profiles of the personas themselves, their relationship to the product, and the context in which they use the product. The intended user of the toolkit is the product's designer, so it's it advisable to streamline the personas to critical aspects when presenting them outside the product development team. Even within the development team, not everyone may need every single detail about the persona.
+When developing personas, precision is more important than absolute accuracy for many aspects - at least for the first two uses. For the latter three, it's often important to be more accurate about things related to the behavioral interaction with the product. But if necessary, it's better to take a best guess than omit something important.
+Note: When I refer to "product," this could be a Website, software application, physical product or service.
+Note: This is a work in progress, since it's a tool I've built in response to various projects over the years. If you have suggestions on how to improve it, please let me know.
+
+Thanks to Robert Reinman for his excellent descriptions of the first two ways of using personas. Posting on the Interaction Designers Discussion mailing list http://www.interactiondesigners.com 02 February 2004.
+
+Sources for Persona-building Information
+Ideally, personas should be based on interviewing and direct observation of users. But you may also get useful information from these alternate sources, which can also be used when contact with users isn't possible. However, handle information from these sources with extreme care - it's not the same thing as dealing directly with users.
+
+User Surrogates
+Domain experts - Can often identify what might be valuable to users, how users might do a particular task, etc.
+Trainers - If they're having trouble teaching it, it's probably the product's fault.
+Immediate supervisors (for internal applications) - You'll need to find out about how much they actually hear from their employees about the task or product in question. In the best case, they may have a broader view of issues with the product that complements that of individual users.
+Informants and Interpreters
+Marketing - Usually better at understanding a product's functional or brand issues than user experience issues.
+Sales - The best sales people can be quite helpful since they work hard to understand customer needs, but sales people tend to have a "more features are better" mentality that needs to be taken into account. Also, customers may not be the people who actually use the product.
+Customer/Technical Support - Often overlooked, but every day they hear about where the product has problems.
+Documentation specialists - If they've had difficulty communicating how to use the product, there's probably a trouble spot.
+Personas creation/usage toolkit
+Page 1 of 18
+
+
+Indirect Sources
+
+Manuals
+Look for where the instructions fail to match how the work actually gets done.
+Look for user-created cheat sheets - a sure sign of problems.
+Derived data - Gotten from records or info collected for other purposes.
+Traffic logs
+Tech support/help desk logs
+Customer feedback forms
+Artifacts
+Items that users create or use as part of what they're doing - look for things that indicate the reveal the assumptions, concepts, strategies and structures of the artifact itself that guide the people using them.
+Questionnaires, surveys, focus groups, etc. - Be sure to pay close attention to how the questions are posed. Also, group dynamics can seriously distort focus groups.
+Ersatz Users - Handle with care, because they often don't know as much as they think they do.
+Buyers - those who sign checks but don't actually use the product
+Upper-level managers - Often they need to be listened to, but they frequently know less about customers or internal processes than they think they do. In fact, a Product Development and Management Association study on product development best practices found senior executives backed product launch failures more than half the time.
+Based on "Software from Use," Larry L. Constantine and Lucy A.D. Lockwood, 1998 Pgs. 70-77 http://www.amazon.com/exec/obidos/ASIN/0201924781/interactionby-20/104-7330305-6449509 and
+"Contextual Design," Hugh Beyer \& Karen Holtzblatt, 1997, Pgs. 102-105
+http://www.amazon.com/exec/obidos/ASIN/1558604111/interactionby-20/104-7330305-6449509
+Persona Types
+Personas should be prioritized as one of the following:
+Focal - Primary users of the product who are its main focus. We will optimize the design for them. At least one persona must be a focal persona.
+Secondary - Also use the product. We will satisfy them when we can.
+Unimportant - Low-priority users, including infrequent, unauthorized or unskilled users, as well as those who misuse the product.
+Affected - They don't use the product themselves, but are affected by it (for example, someone who gets reports from a user of a application, or the spouse of someone using a travel Website to plan a trip).
+Exclusionary - Someone we're not designing for. It's often useful to specify this to prevent nonusers from creeping back into product development discussions.
+It's critical to get team consensus about the relative priority of the personas. As discussed in Alan Cooper's "The Inmates are Running the Asylum," if you have more than three focal personas, the design problem is too big. You probably need to split the product into more than one product or overall interface to avoid overwhelming users with too much complexity and causing the product to lose a clear focus. (For example, you can create one interface for users of a system and a different interface for those who maintain the system.)
+It may not be immediately obvious at first which personas are focal ones, so the toolkit identifies characteristics that may be useful in prioritization. However, it's often critical to consider which personas are the "neediest" - that's to say, if you can solve a design problem for them, you solve it for your other important personas. If this is the case, "neediness" should take priority because personas are a design tool, not a market segmentation. The flip side to neediness is looking at which users are most demanding. While this runs the risk of tilting toward power users, it's not uncommon for consumer-facing products to have 20 percent of customers account for 80 percent of profits and therefore it makes sense to remember their needs. But the principle is the same as designing for the neediest users: if you can satisfy a design problem for the most demanding users then you satisfy a much larger group of users. So "demanding" can be a valuable complement to "neediness," but should be used with care.
+
+While personas are typically created only for users of a product, it's important to keep in mind the interests of other stakeholders, who can include:
+Personas creation/usage toolkit
+Page 2 of 18
+
+
+Immediate business sponsors
+Higher-level management
+The marketing team
+The sales team
+The engineering team
+The customer support team
+The legal team
+Industry analysts
+Market/industry influencers
+Regulators
+Advertisers
+Suppliers
+Business partners
+Unions
+Public interest or lobbying groups
+Typically, we don't create personas for these stakeholders, however sometimes it may be useful to create minimal personas for one or more of them - usually focusing on their goals - to make sure their interests are taken into account. At a minimum, it is often worth noting for each stakeholder:
+
+Their goals
+The amount of influence they have in the project
+The amount of knowledge they need to participate
+The degree of involvement they will have
+What conflicts they may have with other stakeholders
+Getting awareness - and preferably team consensus - about these factors can be invaluable in managing the inevitable politics around a product's development.
+Note: See "The Inmates are Running the Asylum," Alan Cooper, 1999
+http://www.amazon.com/exec/obidos/ASIN/0672316498/interactionby-20/104-7330305-6449509 for a discussion of persona prioritization and examples.
+
+Persona's Biographic Background
+All personas should be named and have accompanying photos to help humanize them. This section focuses on defining who they are and serves two purposes. First, to match personas to market segments, if appropriate. Second, to provide "back story" that may not be essential for design purposes but help the persona feel more real. This background information often can come from Marketing.
+
+While this sort of demographic and psychographic information may be useful from a marketing standpoint - especially to ensure than consumer-facing products are appealing - for designers of interactive products it's the behaviorial aspects related to the product's interactions (to be discussed later) that are most critical in making personas an effective design tool. So you should be careful not to let these characteristics divert attention from others that are more useful tools for design.
+\begin{tabular}{|l|l|}
+\hline Name & \\
+\hline Photo & \\
+\hline Geographic profile & Can be useful if the product will be used in specific regions. May also be useful for providing non-essential details that help humanize personas. \\
+\hline World region or country & For example: North America, United States, etc. - Mostly useful for when multiple countries or regions need to be served by the product. \\
+\hline Country region & Pacific Coast, Midwest - This and the next two factors may be useful in understanding cultural factors, how users live their lives \\
+\hline City/metropolitan size & Under 5,000, 5,000-20,000, 20,000-50,000, 50,000-100,000, 100,000250,000, 250,000-500,000, 500,000-1 million, 1 million-4 million, more than 4 million \\
+\hline Urbanicity & Urban, suburban, rural \\
+\hline Climate & Sunbelt vs. Snowbelt, etc. \\
+\hline
+\end{tabular}
+Personas creation/usage toolkit
+Page 3 of 18
+
+
+\begin{tabular}{|l|l|}
+\hline Demographic profile & These are normally only relevant for consumer-oriented products and irrelevant for internal corporate productivity tools. These use standard marketing segments (which typically imply a range of other aspects). However, they can be useful in giving a persona personality. \\
+\hline Age & It's best to get them an exact age, but useful standard marketing segments are: Under 6, 6-11, 12-19, 20-34, 35-49, 50-64, Over 65 \\
+\hline Gender & Male, female \\
+\hline Family size & 1-2, 3-4, more than 5 \\
+\hline Family lifecycle stage & Young, middle-aged, older, single/married/divorced, with/without children/without children under 18, etc. \\
+\hline Income & Under \$10,000; \$10,000-20,000, \$20,000-30,000, \$30,000-50,000, \$50,000-100,000, \$100,000 and over \\
+\hline Housing type & Apartment, condo/townhouse, single-family home; renter vs. owner \\
+\hline Occupation & Professional and technical, managers, officials, proprietors, clerical, sales, craftspeople, supervisors, farmers, retired, students, homemakers, unemployed, etc. If you're matching a persona to a occupational segment, give the persona a specific job that's reflective of the segment. (Personas should always be concrete and specific.) Note: The user's role - separate from occupation or job title - is often important and will be discussed later. \\
+\hline Education & Grade school or less, some high school, high school graduate, some college, college graduate, post-graduate. This can have important implication for the level of information presented. \\
+\hline Religion & May need to be aware of religious sensitivities \\
+\hline Race/Ethnicity & Both this and nationality may affect the style of communication, presentation issues (such as implied meanings of colors, etc.) and other cultural sensitivities. \\
+\hline Nationality & \\
+\hline Psychographics & Based on social class, lifestyle or personality characteristics. People in the same demographic groups can have extremely different psychographic makeups. \\
+\hline Social class & \begin{tabular}{l}
+Not determined by a single factor, such as income, but a combination of factors, including wealth, occupation, income, education, etc. Rough estimates of U.S. population: \\
+Lower lowers - 7\% lowers - On welfare or have "the dirtiest" jobs, visibly poverty-stricken. \\
+Upper lowers - 9\% - Working but just above poverty level. Working class - 38\% - Those who lead a "working-class lifestyle" regardless of income, education or job. \\
+Middle class - 32\% - Average-pay white- and blue-collar workers who live on "the better side of town." \\
+Upper middle class - 12\% - Typically careerists, possessing neither family status nor unusual wealth. Lower uppers - 2\% - Typically the nouveau riche who possess wealth through exceptional ability in their profession or business. Upper uppers - <1\% - "Old money" social elite.
+\end{tabular} \\
+\hline Social group status & Aspirational models, influencers, wanna-bes, part of the crowd, social outcasts, etc. \\
+\hline Social network role & \begin{tabular}{l}
+Often more useful for internal applications, this looks at the "it's not what you know, it's who you know" factor. Is your persona a: \\
+Central connector - Links most people in an informal network, the classic go-to person. \\
+Boundary spanner - Roving ambassadors who serve as a groups eyes and ears to the wider world. \\
+Information broker - People who connect the various subnetworks, who may not have as many direct connections, but are lynchpins to the network. \\
+Peripheral specialist - Person whose expertise plays a vital role, but who operates on the periphery of the network.
+\end{tabular} \\
+\hline Personality and self-image & Compulsive, gregarious, authoritarian, etc. \\
+\hline Beliefs & Descriptive thoughts someone holds about something, which may be based on real knowledge, opinion, or faith. May or may not carry an emotional charge. Focus on beliefs relevant to the product and its usage. \\
+\hline Attitudes & Consistent favorable/unfavorables evaluations, feelings or tendencies toward an object or ideas. For example: "Always buy the best." Focus on \\
+\hline
+\end{tabular}
+Personas creation/usage toolkit
+Page 4 of 18
+
+
+\begin{tabular}{|l|l|}
+\hline & attitudes relevant to the product and its usage. \\
+\hline Acceptance of innovation & \begin{tabular}{l}
+Innovator - Creators of new ideas, trends, etc. Usually too "out there" to be influencers in their communities. \\
+Early adopter - Fast followers of the innovators, who are often opinion leaders within their communities. \\
+Early mainstream - Think things over, but adopt new things before the average person. \\
+Late mainstream - Skeptical, adopting only after a majority have done so. \\
+Laggard - Suspicious of change, only adopts something when it's become something of a tradition.
+\end{tabular} \\
+\hline Lifestyle motivations & \begin{tabular}{l}
+Principle-oriented: Thinkers, believers - Place importance on abstract or idealized criteria rather than feelings, emotions or desire for social approval. \\
+Status-oriented: Innovators, achievers, strivers, survivors - Strive for clear social position, place importance on opinions of others. \\
+Action-oriented: Experiencers, makers - Driven by desire for activity, variety and risk-taking. \\
+Categories are from the VALS marketing segmentation system. http://www.sric-bi.com/VALS/ While VALS has become less predictive toward buying behavior in recent years, it's still useful food for thought.
+\end{tabular} \\
+\hline Lifestyle traits & \begin{tabular}{l}
+The "You are Where You Live" U.S. ZIP code marketing segmentation systems developed by Claritas (including PRIZM and others) provides examples of these sort of traits, such as what car you drive; what read, watch and listen to; what sorts of products you purchase. USA Today provides a good overview of the system \\
+http://www.usatoday.com/news/graphics/whoweare/flash.htm (requires Flash plug-in). You can also see the market segments by ZIP code at http://www.cluster1.claritas.com/MyBestSegments/Default.jsp?ID=20 has several useful tools, including PRISM, for finding typical lifestyle traits to include as back story.
+\end{tabular} \\
+\hline Interests/hobbies & May be relevant for consumer products, but may also be useful for providing non-essential details that help humanize personas. \\
+\hline Media read, watched, or listened to (magazines, TV shows, etc.) & Can be quite useful for researching the background of users, including interests, subject matter knowledge, level of information, aesthetic tastes, etc. For Websites, competing products may include these offline media. Also a useful short-hand for communicating persona interests. \\
+\hline Webographics & Useful for Web-specific projects \\
+\hline Tenure of online usage & Tenure and amount of usage are often predictors of technological sophistication. \\
+\hline Amount of online usage & Hours per day/week/month \\
+\hline Type of usage & What does the persona commonly use the Internet for? Email, news, file-sharing, etc. \\
+\hline Connection speed & Critical and overlooked. \\
+\hline Internet device & Desktop browser, PDA, cellphone, as well as browser alternatives, such as instant messaging clients, email, and Internet-based - but not Webbased - tools, such as file-sharing applications. \\
+\hline Browser capabilities & Specific browsers aren't as important as whether the browser is capable of supporting current technologies, such as CSS, (essentially 5.0+ browsers) vs. older or specialty browsers. \\
+\hline Specific online behavior & It may be useful to highlight specific online behaviors related to your project. \\
+\hline
+\end{tabular}
+
+Geographic, demographic, psychographic factors based on "Principles of Marketing" $8^{\text {ch }}$ Edition, Phillip Kotler and Gary Armstrong, 1999, Pgs. 135, 139, 144, 150, 203. (Current edition is the $10^{\text {th }}$ edition.) http://www.amazon.com/exec/obidos/ASIN/0131018612/interactionby-20/104-7330305-6449509
+Social network characteristics are from "The People Who Make Organization Go - Or Stop," Rob Cross and Laurence Prusak, Havard Business Review, June 2002
+
+Personas Relationship to the Business
+From a product design standpoint, one of the most important part of using personas is to identify personas who can be the key to solving problems for a wider group of personas. That said, for commercial products, it's often also worth considering how valuable particular personas are to the business. If nothing else, it prepares you to address business-related concerns that are often raised. For non-profit
+Personas creation/usage toolkit
+Page 5 of 18
+
+
+organizations, some "consumers" may be important than others, so a similar analysis can be applied with appropriate adjustments.
+\begin{tabular}{|l|l|}
+\hline Relationship to business & Employee, partner, supplier, customer, etc. \\
+\hline Percentage of overall users & Can help gauge amount of consideration to be given \\
+\hline Importance relative to other users & \begin{tabular}{l}
+Used to help gauge amount of consideration to be given. State why exactly this persona is more/less important than others in business terms. \\
+If users are customers, how do they fit into the business' "customer portfolio," that's to say, are they: \\
+Darlings - The most profitable and loyal customers who typically make up the bulk of revenue (the original case of the 80/20 rule) \\
+Desirables - More profitable, regular customers \\
+Dependables - Lower- to marginal-profit, but still regulars. \\
+Disasters - Customers who actually cost a company money \\
+A better measure is the combination of profitability and longevity: \\
+True friends - Highly profitable, long-term relationship. Businesses will want to delight, nuture and retain these customers. \\
+Butterflies - Highly profitable, but transient relations. Businesses will only invest in them only as long as they're active. \\
+Barnacles - Low profit, long-term relationships. Businesses will limit investment in these customers, often because there's a limited fit between the company's offerings and customers' needs. \\
+Strangers - Low profit and short-term, usually due to poor fit between offerings and needs. Businesses will avoid any investment and may actively seek to lose these customers. \\
+For internal applications, it's crucial to examine how important a user's role is to a company's operations. It's not uncommon for a low-status job to play a unexpectedly critical role in maintain a smooth and efficient workflow, or to even be a strategic enabler for the company. \\
+Also consider other factors that might affect the user's influence on business. (For example, alumni donors to a university are small in numbers but critical to the university's finances.)
+\end{tabular} \\
+\hline
+\end{tabular}
+
+Profitability vs. longevity characteristics from "The Mismanagement of Customer Loyalty," Werner Reinartz and V. Kummar, Harvard Business Review, July 2002
+
+Product's/Business' Relationship to the Persona
+While internal applications are used because they're part of a user's job, it's the users who choose whether they use consumer-facing products. A useful way of looking at a user's relationship to a product (and company) is to make an analogy to human relationships. While these issues won't identify specific behavioral issues related to the product's interaction, they may suggest emotional aspects that the product needs to address. It's often useful to evaluate these separately for the business and the product itself.
+\begin{tabular}{|l|l|}
+\hline User status & Non-user, ex-user, potential user, first-time user, regular user \\
+\hline Usage rate & Light user, medium user, heavy user \\
+\hline Loyalty status & None, weak, medium, strong, absolute (this is simplified gauge of the brand relationship) \\
+\hline Buying readiness (for commerce contexts) & Unaware, aware, informed, interested, desirous, intending to buy \\
+\hline Attitude toward product & Enthusiastic, positive, indifferent, negative, hostile (this is simplified gauge of the brand relationship) \\
+\hline Brand relationship (current) & \begin{tabular}{l}
+The currently relationship as perceived by persona: \\
+Arranged marriage - used only because of the situation - typical of internal applications or products used because of significant others Casual friends - intermittent usage, but positive feelings Marriage of convenience - used because of necessity Committed partnership - long-term and voluntary relationship Best friendship - user regards the product as an essential part of their life, often becomes an advocate for product
+\end{tabular} \\
+\hline
+\end{tabular}
+Personas creation/usage toolkit
+Page 6 of 18
+
+
+\begin{tabular}{|l|l|}
+\hline & \begin{tabular}{l}
+Compartmentalized friendship - used only for certain purposes \\
+Kinship - using a product because family/friends use it \\
+Rebounds/avoidance-driven relationships \\
+Childhood friendships - often nostalgic attachment from prior use even if infrequent current usage \\
+Courtships - testing a brand before entering into a long-term relationship \\
+(Co)-Dependent - users are (emotionally) dependent on the product to meet their needs \\
+Flings - a short-term engagement often with a trial product Enmities - deep-seated, often (perceived) mutual hatred Secret affairs - product is used as secret treat \\
+Enslavement - involuntary relationship governed exclusively by the product's wishes or desires
+\end{tabular} \\
+\hline Brand relationship (desired) & Same as above, but the new relationship created by the new product (as desired either by persona or by business) \\
+\hline Brand relationship quality characteristics & \begin{tabular}{l}
+Love/Passion - The user feels affection/passion for the product and may experience separation anxiety if it's not available \\
+Self-Connection - using the brand helps consumer address a life issue \\
+Commitment - User sticks with the product through good or bad times, either their own or the product's \\
+Interdependence - brand is inextricably woven into user's daily life and routine \\
+Intimacy - User describes a sense of deep familiarity with the product and an understanding of its attributes. Likewise, they may feel the product understands them in a similar way. \\
+Partner Quality - User seeks certain positive traits, the same qualities as one would look for in a best friend \\
+Nostalgic attachment - Brand brings back memories either because it was used at an earlier time in life or because it was associated with loved ones
+\end{tabular} \\
+\hline Brand relationship trajectory & \begin{tabular}{l}
+How is the relationship changing over time? Is it a: \\
+Biological lifecycle (Bell curve) \\
+Growth-Decline-Plateau \\
+Passing Fling (Intense, but short-lived) \\
+Approach-Avoidance \\
+Cyclical resurgence (waxes and wanes, but grows over time) \\
+Stable maturity (slow but steady growth)
+\end{tabular} \\
+\hline
+\end{tabular}
+
+Brand relationships characteristics based on Susan Fournier, "Consumers and Their Brands: Developing Relationship Theory in Consumer Research" in Journal of Consumer Research Vol. 24 (March 1998), 343373. A summary description of Fournier's work is at http://www,leadingresearch,hbs,edu/archives/02.01/story04.html Remaining factors from "Principles of Marketing" 8th Edition, Phillip Kotler and Gary Armstrong, 1999, Pg. 203.
+
+Specific Goals/Needs/Attitudes
+At this point we begin to transition from the attitudinal to the behavioral aspects of product design. A key point is to focus on goals rather than tasks. Restructuring tasks to more easily accomplish goals is often a way to improve the product experience.
+\begin{tabular}{|l|l|}
+\hline Usage goals & What do users really want to accomplish regardless of the specific tasks they use to reach the goal. \\
+\hline Emotional goals & \begin{tabular}{l}
+Usually unstated, these are emotional overtones accompanying specific usage goals, which when satisfied cause a product to resonate with users. While these are most obvious in consumer-facing products, these can be just as important for internal applications. They include: \\
+Learning - Gaining knowledge or mastery \\
+Doing - Engaging in desired action or activity \\
+Believing - Having faith or confidence, in a product, brand, company, cause, etc. \\
+Becoming - Personal self-transformation \\
+Entertaining - Being delighted, charmed, captivated \\
+Belonging - A sense of connection to a group
+\end{tabular} \\
+\hline "Big picture" goals & Usually unstated - for example, "look good to the boss." Usage goals in \\
+\hline
+\end{tabular}
+Personas creation/usage toolkit
+Page 7 of 18
+
+
+\begin{tabular}{|l|l|}
+\hline & themselves will fail if they contradict these goals. \\
+\hline Motivations & Why do they want to accomplish usage goals, emotional goals and "big picture" goals? Since goals can broaden quickly, be specific to the context in which they'll be using the product. \\
+\hline Needs & Often needs provide the motivation. Be specific to the context in which they'll be using the product. Users sometimes have problems they don't realize they have, so be sure to include unarticulated needs if appropriate. \\
+\hline Frustrations & What's causing pain with how they do things now? Where are roadblocks? Where are workarounds being used? Often users are so used to these sorts of things they won't raise them. Also look at broader issues beyond the system for opportunistic enhancements. \\
+\hline Attitude to job/task & \begin{tabular}{l}
+For internal users - are they committed careerists vs. 9-to-5ers vs. temps, etc. \\
+For both internal users and customers, is the job/task something they have to do vs. like to do vs. love to do
+\end{tabular} \\
+\hline Familiar with/Anxious about & General description of their attitudes and feelings about the task and its context. What are they comfortable with, what causes nervousness? \\
+\hline Attitude toward technology used & Similar to overall attitudes toward innovation (see biographic background), but focus in on the specific technology involved with the task or product. \\
+\hline Trigger(s) for action & What prompts them to do the task? General description, use task analysis for details. \\
+\hline Trigger(s)/Roadblocks for inaction or resistance & General description, use task analysis for details. \\
+\hline How is value defined? & How does the user perceive value? What will make them think the user experience was a success? Potential benefits include: quality, service, economy, convenience, speed. \\
+\hline
+\end{tabular}
+
+Emotional goals are based on "Experiential Elements," which I learned from Mitch McCasland, founder of Brand Inquiry Partners http://www.brandinquiry.com
+
+Specific Knowledge/Proficiency
+While the biographical section dealt with the personas' overall knowledge and skills, we now need to look at these in the context of how the product is used. Obviously computer proficiency issues are only applicable if the product is computer-based. Add other proficiencies as applicable.
+\begin{tabular}{|l|l|}
+\hline Language proficiency & Ability to speak/comprehend, read/write language being used in the product. Additional languages used by personas. \\
+\hline Subject matter knowledge/expertise & Novice, Advanced Beginner, Intermediate, Expert (see description below) \\
+\hline Computer proficiency (overall) & Novice, Advanced Beginner, Intermediate, Expert (see description below) \\
+\hline Proficiency with this particular application, system or product. & Novice, Advanced Beginner, Intermediate, Expert (see description below) \\
+\hline
+\end{tabular}
+
+Novice
+Very goal and task oriented
+Don't want to learn, simply want to do
+Domain experts will use existing mental models - which may not fit the new product
+Domain novices have to simultaneously learn the product and the domain
+Fear of failure, fear of the unknown
+Focus on accomplishing real work
+Impatient with learning concepts rather than performing task
+Theoretical understanding only - no practical experience
+Advanced beginners
+Typically 80 percent of users never move beyond this stage
+Includes infrequent users
+Includes frequent users who only do a few tasks
+Can now perform several tasks well, although they learn what they need to and ignore the rest
+Focus on accomplishing real work
+Impatient with learning concepts rather than perform tasks
+Personas creation/usage toolkit
+Page 8 of 18
+
+
+Domain experts are impatient learners. They will likely try to make sense of interface to accomplish goals by themselves or with peer's help. Only if stumped will go to documentation or outside help. Randomly access tasks
+By adding more and progressively more complicated tasks, they begin to develop an empiricallybased mental model (which may or may not be accurate)
+But not comfortable troubleshooting and often unsuccessful at it
+Typically self-ratings will overstate skill levels (they don't know what they don't know)
+Intermediates (aka "competent performers")
+Focus on performing more complex tasks that require many coordinated actions
+Ability to plan how to perform a complex series of task to achieve a goal
+Willingness to learn how tasks fit into a consistent mental model of the interface as a whole
+Interest in solving simple problems by applying a conceptual framework to diagnose and correct errors.
+Experts
+Focus on developing a comprehensive and consistent mental model of the product functionality and the interface
+Ability to understand complex problems and find solutions
+Interested in learning about concepts and theories behind a product's design and use Interested in interacting with other expert users
+Competency descriptions based on "User and Task Analysis for Interface Design," JoAnn T. Hackos and Janice C. Redish, 1998 Pgs. 76-87 http://www.amazon.com/exec/obidos/ASIN/0471178314/interactionby-20/104-7330305-6449509
+
+Context of Usage
+Now that we understand who our users are, it's time to look at the context in which they use the product. While arguably this overlaps with scenario development and task analysis, these generally focus on the task itself and overlook the wider context around the task.
+\begin{tabular}{|l|l|}
+\hline Task context & Does users do the task/use the product by themselves, or as part of a group? How much time is allowed? Is the task completed/product used in one sitting or over time? Is it done regularly or only on special occasions? Etc. (Some of these overlap with the interaction characteristic below.) \\
+\hline User's role & This is not the persona's job title, occupation, etc., it's the role they play while interacting with the product. It's common for a job to contain multiple roles. (For example, an editor: edits material, proofreads material, does fact-checking, manages writers, oversees the editorial production schedules, etc.) \\
+\hline User's responsibilities & More applicable to internal applications, but what's expected of the persona relative to what they're doing. The perception of these responsibilities may influence the user, even if they have no actual relation on the task or product. \\
+\hline Benefits sought & Quality, service, economy, convenience, speed, etc. More relevant for consumer-facing products. \\
+\hline User's preference for interacting with others & Useful consideration for whether it's a collaborative environment vs. competitive environment (for example, sales teams) \\
+\hline Surrounding environment & \begin{tabular}{l}
+Description of the location(s) where usage occurs, including: \\
+Places - workstations vs. outdoor cafe \\
+Physical structures - cubes, file cabinets, etc. \\
+Use and movement of space - how people move in and around the space as they do things. \\
+Tools - hardware, software, others (in-baskets, address books) Artifacts - Things that may be created, modified or passed around to support what they're doing \\
+Layout - Where things get moved to help get things done. \\
+The level of detail will vary, but be sure to note any issues posed by the physical environment (for example, is the product to be used on sailboats at night during trans-ocean races; around a printing press?). If you're able to do field research it's often invaluable to get photos of where the user does the task. A picture is worth a 1,000 words in communicating to other team members and is a useful memory aid for remembering the many clues implicit in the environment. Look for what gets visibility, emphasis, or rapid access and what doesn't.
+\end{tabular} \\
+\hline Device constraints & Desktop connection vs. PDA, connection speed, etc. \\
+\hline
+\end{tabular}
+Personas creation/usage toolkit
+Page 9 of 18
+
+
+\begin{tabular}{|l|l|}
+\hline Security & If security is involved, is the persona authorized access to the product? Under what circumstances that access is granted? To what parts of the product? \\
+\hline Traceability & Does the persona's actions need to be traceable? At what level of detail? \\
+\hline Accuracy & What level of accuracy is needed? \\
+\hline Confidentiality/privacy & How important is it to the persona that certain tasks/information be kept securely private. Are there privacy laws or regulations in the persona's environment that need to be taken into account? \\
+\hline Flexibility of task & How important to users is the ability to be flexible in their task? \\
+\hline Operational risk/Safety & Is the user involved in a high-risk task? \\
+\hline Reliability and availability of product & How reliable does the system need to be for the user (and/or business) - business hours vs. 99\% uptime vs. 99.99\% uptime, etc. How acceptable to the user is it for scheduled downtime to occur for maintenance? \\
+\hline Robustness of product & How important to the persona is it that the product to continue to function under abnormal circumstances? (for example, a power failure) \\
+\hline Scalability & How important to the persona is the product's ability to handle increase usage by the persona? At what performance levels? \\
+\hline Capacity & If the product stores something belonging the persona, what volume is involved and how might it grow over time? \\
+\hline Trustworthiness & Does the user need to feel they can trust the product (often an issue in e-commerce or in high-risk tasks). \\
+\hline Assistance needed & For example, does the user need handholding - this could be help with subject matter, could be technical help, could be physical assistance, could be cognitive help, etc. \\
+\hline Assistance available & What type of training or tech support is available, if any? \\
+\hline Social-cultural issues & Any social-cultural issues regarding the task/usage to be taken into account? What expectations, desires, policies, values are relevant? \\
+\hline Social trends & What social trends and drivers might affect the context of use. This includes historical trends that might be reviving. \\
+\hline Economic trends & How might the state of the economy affect the context of use? Are there shifts in where to spend money? In the levels of disposable income? \\
+\hline Legal & Any current or potential legal restrictions stemming from the persona's role or context? Liability concerns? \\
+\hline Standards & Any industry or other standards related to the persona's role or context that need to be complied with/taken into account? \\
+\hline Politics & As in organizational politics. Either an agenda(s) the user may have or company politics affecting the persona. \\
+\hline Portability & How likely is the user likely to want the product to work in other environments? \\
+\hline Technological interactions & What other technologies might the persona be using that your product needs to interact with? \\
+\hline Maintenance & Who will take care of the product if it needs maintenance? How important is ease-of-maintenance to the persona? What skills does the persona have to maintain and/or troubleshoot the product? \\
+\hline Transition issues & If the product is upgrading or replacing a product the persona currently uses, what impacts will that have on the persona? How will the persona handle the transition between old and new products? Likewise, if the new product would require the persona to switch from another product or existing way of doing things, what are the ramifications? \\
+\hline Documentation & What sort of documentation of the product does the persona expect? Is the persona likely to have the documentation available? How likely is it that the persona will actually look at the documentation? (It's possible for various reasons that the persona might expect to get documentation-especially if it's a complicated product - but not actually use the documentation.) \\
+\hline Learnability & How important to the user is the ability to intuit the product easily ("first look" ease of learning)? \\
+\hline Remember-ability & How important is it that the user be able to remember how to use the product between usage sessions? \\
+\hline Power and efficiency in use & How important is being able to use the product efficiently? (This may poses trade-off against initial ease of learning) \\
+\hline Error tolerance & How important to user is it to have user-friendly error handling and recovery (contingency design)? \\
+\hline Satisfaction & How important is it that the product is satisfying to use? While this may \\
+\hline
+\end{tabular}
+Personas creation/usage toolkit
+Page 10 of 18
+
+
+\begin{tabular}{|l|l|}
+\hline & \begin{tabular}{l} 
+not matter for internal applications, it can be critical for consumer-facing \\
+in competitive markets. (Note: more detail satisfaction criteria are \\
+detailed below.)
+\end{tabular} \\
+\hline Other issues/constraints & Specific issues/constraints not already identified above. \\
+\hline
+\end{tabular}
+
+Context questions based in part on from the Volere Requirements Specification Template http://www.systemsguild.com/GuildSite/Robs/Template.htm/
+
+Interaction Characteristics of Usage
+Now we look at specific details about the task. These can be extremely useful in guiding "tactical level" design decisions about functional and interaction aspects of the product.
+\begin{tabular}{|l|l|}
+\hline Frequency of use & How often will the persona take on this role? ("Role" is the role they have interacting with the product - not their job title or occupation.) \\
+\hline Regularity of use & Is the product used on a regular basis or is usage more sporadic? Specify time periods. \\
+\hline Continuity of use & Is interaction with this role essentially continuous or is it more intermittent? If intermittent, be detailed about what happens. \\
+\hline Intensity of use & Is usage concentrated into bursts or batches, or is it more evenly distributed? \\
+\hline Timeliness & How quickly do things need to be done? How quickly does the product need to respond to a request or situation? \\
+\hline Complexity & How complex are the interactions within this role? \\
+\hline Predictability & Are the interactions within this role more or less predictable? \\
+\hline Who controls the interaction & Driven by user vs. by the product itself (an emergency system at a nuclear reactor) vs. others (callers to a call center) \\
+\hline Web-specific usage scenarios & \begin{tabular}{l}
+Quickies - Typically a less than 1-minute session, involving two or fewer sites, to look up specific information - such as a stock quote. Just the facts - Roughly 10-minute sessions looking for specific information from known sites, but with rapid page views ( 30 seconds or less). \\
+Single mission - 10-minute sessions by users who go online to complete a certain task or gather specific information, then leave. Longer page views, averaging 90 seconds. \\
+Do it again - 14 minute sessions, with lengthy page views (2 minutes). Users spend 95\% of their session at sites they've visited four or more times. Auctions, games and investments are typical sites. Rarely involve searches because users know the site. Loitering - Longer sessions (33 minutes) with 2-minute page views to familiar "sticky" sites, such as news, gaming, ISP, and entertainment sites. \\
+Information Please occasions average 37 minutes and are used to build in-depth knowledge of a topic, such as buying a car. Surfing - By far the longest sessions, averaging 70 minutes, with few stops at familiar sites. Users visit nearly 45 sites in a typical session based on whatever captures their interest. \\
+These obviously aren't the only usage scenarios, but are useful reference points.
+\end{tabular} \\
+\hline
+\end{tabular}
+
+Web usage scenarios from "Seize the Occasion! The Seven-Segment System for Online Marketing," Horacio D. Rozanski, Gerry Bollman, and Martin Lipman, "Strategy + Business" Third Quarter, 2001, available at http://www.strateqy-business.com
+
+Information Characteristics of Usage
+Just as with interaction characteristics, we're trying to build up a detailed picture of how the task to guide decision decisions about how to present appropriate content.
+\begin{tabular}{|l|l|}
+\hline Information origins & \begin{tabular}{l} 
+Where does information used in this role originate? (From the persona, \\
+from someone else, from the product itself, etc.) Where does the \\
+information go next? What is its ultimate destination?
+\end{tabular} \\
+\hline Flow direction & Does information flow predominantly from or to the persona? \\
+\hline
+\end{tabular}
+Personas creation/usage toolkit
+Page 11 of 18
+
+
+\begin{tabular}{|l|l|}
+\hline Information Volume & How much information is available and of interest to the persona? \\
+\hline Information Complexity & How complex is the information available and of interest to the persona? \\
+\hline Modes & Aural, visual, etc. Is more than one mode involved? (For example, call center operators must listen/speak to customers on the telephone while simultaneously reading/writing on a computer.) \\
+\hline Clarity of presentation & How essential is that information be clearly (and simply) presented to the persona? \\
+\hline Level of detail & What level of detail is desired by/is appropriate for the persona? \\
+\hline
+\end{tabular}
+
+Interaction and information characteristics based on "Software from Use," Larry L. Constantine and Lucy A.D. Lockwood, 1998 Pgs. 70-77 http://www.amazon.com/exec/obidos/ASIN/0201924781/interactionby-20/104-7330305-6449509
+
+Sensory/Immersive Characteristics of Use
+Often overlooked in traditional task analysis, these are inherent more qualitative, but aesthetics are increasing a critical part of a product's success. Why settle for functional, when you can have functional and appealing? Nor should this be overlooked for internal applications. Answering these questions will help guide choices to ensure the product has the appropriate tone and voice.
+\begin{tabular}{|l|l|}
+\hline Brand identity & More to make note of corporate branding issues (see brand personality/relationship qualities) \\
+\hline Mood/Feeling & Either what the persona would like to evoke, or what the business would like to evoke in the persona \\
+\hline Style/Genre & What is likely to appeal to persona? Post-modern vs. traditional, energetic vs. tranquil, complex vs. simple, happy endings vs. tragedy, etc. Your tastes may not match those of your users. \\
+\hline Mediums & Words, photos, illustration, audio, video, animation, touch, smell, taste \\
+\hline Immersion type & Lean-back, lean forward, mixed (see note below) \\
+\hline Appeals & Voyeuristic, vicarious, visceral (see note below) \\
+\hline Memorable & What makes it memorable - from persona's perspective \\
+\hline Pleasurable & What makes it pleasurable - from persona's perspective \\
+\hline
+\end{tabular}
+"Lean-back/lean-forward" are shorthand for two types of engagement, which are typified by these two postures. For example, watching a movie vs. playing a video game. Sometimes called "passive" vs "active" engagement, but I think those terms are misleading.
+
+Appeals are based on "Making Movies Work: Thinking Like a Filmmaker," Jon Boorstin, 1995. http://www.amazon.com/exec/obidos/ASIN/1879505274/interactionby-20/104-7330305-6449509 In brief, Boorstin argues movies appeal on at least one of three levels:
+
+Voyeuristic - the joy of looking/experiencing, tends to be a bit of an intellectual appeal, typified by the epic film (or, in my interpretation, interactive puzzles like Tetris)
+Vicarious - what we think of as the traditional "emotional" appeal, typified by the melodrama (in my interpretation there's no good videogame equivalent as of yet).
+Visceral - gut-level sensation, typified by the action movie (or, in my interpretation, first-person shooter games).
+
+Emotional Characteristics of Usage
+While the user experience community has overlooked the importance of emotions in a product, such concerns have long been a part of branding and offline product development. Below is a list that researchers claim accounts for the vast majority of brand differentiation. Companies will ideally have their own branding, which should also be taken into account.
+\begin{tabular}{|l|l|}
+\hline Perceived brand personality (current) & \begin{tabular}{l}
+The "big five" personality characteristics, plus related facets, of the product/company as perceived by the user: \\
+Sincerity \\
+Down-to-earth \\
+Honest \\
+Wholesome \\
+Cheerful \\
+Excitement \\
+Daring \\
+Spirited
+\end{tabular} \\
+\hline
+\end{tabular}
+Personas creation/usage toolkit
+Psge 12 of 18
+
+
+\begin{tabular}{|l|l|}
+\hline & \begin{tabular}{l}
+Imaginative \\
+Up-to-date \\
+Competence \\
+Reliable \\
+Intelligent \\
+Successful \\
+Sophistication \\
+Upper-class \\
+Charming \\
+Ruggedness \\
+Outdoorsy \\
+Tough
+\end{tabular} \\
+\hline Perceived brand personality (desired) & Same as above, but new relationship created by new product (as desired either by user or by business) \\
+\hline Perceived experience of using product & \begin{tabular}{l}
+Sense of adventure - product promotes excitement and exploration \\
+Feel of independence - provides a sense of freedom from constraints \\
+Sense of security - provides a feeling of safety and stability \\
+Sensuality - provides a luxurious experience \\
+Confidence - supports user's self-assurance \\
+Power - promotes authority, control, feeling of supremacy
+\end{tabular} \\
+\hline Point of time/sense of place & How much does the experience reflect a point in time or sense of place that needs to be reflected? \\
+\hline
+\end{tabular}
+
+Brand personality characteristics based on "Dimensions of Brand Personality," Jennifer Aaker, Journal of Marketing Research, 34 (August, 1997), Pgs. 347-357.http://faculty-qsb.stanford.edu/aaker/PDF/Dimensions-of-Brand-Personality.pdf Aaker's paper provides a list of 114 personality characteristics, which can be useful if branding hasn't been worked out.
+Other factors from "Creating Breakthrough Products," Jonathan Cagan and Craig M. Vogel, 2002
+http://www.amazon.com/exec/obidos/ASIN/0139696946/interactionby-20/104-7330305-6449509
+Accessibility issues
+Given the large percentage of the population who have some sort of accessibility need, it's often useful to build these issues into one of your existing personas, as long as it doesn't compromise the main purpose for that persona. The "tips by person" section of http://diveintoaccessibility.org/ provides examples of accessibility personas. (While there may be objections that doing this doesn't represent "real users," the point of personas are that they are a design tool that's often best used by addressing the "neediest" users, who when satisfied, will satisfy the needs of other users.) It's actually not as hard to incorporate accessibility issues as you might think. For example, it's easy to address low-vision issues by having personas who occasionally forget their glasses
+\begin{tabular}{|l|l|}
+\hline Physical abilities/disabilities & \\
+\hline Mental abilities/disabilities & \\
+\hline Assistive devices used & \\
+\hline
+\end{tabular}
+
+Design issues
+Last but definitely not least, list the design issues that the persona touches on. This is useful for several reasons:
+
+It forces you to think through what issues each persona is addressing It helps you check for completeness, i.e. have you captured all the design issues It generate areas that you may need to investigate It helps you explain how personas differ from market segments
+Adding design issues to personas is normally an iterative process. Commonly, you'll have identified several key design issues before building personas. Researching your personas may uncover more issues and you're likely to uncover still more as you build and review them. So add and revise your design issues list as needed during the process.
+
+When you've completed your set of personas, it's often useful to create a table that lists both the design issues and which personas address those issues. Doing so will help ensure you've matched all design issues to personas, and to eliminate unnecessary redundancies among personas, which will help focus them better.
+Personas creation/usage toolkit
+Page 13 of 18
+
+
+If you product is used over time, it's also useful to create matrix the organizes the tasks and/or design issues over time and shows which personas are involved at what point and to what degree. Doing so can help you see patterns that will aid in the design process.
+
+Note: "Reconciling Market Segments and Personas" by Elaine Brechin, a senior designer at Cooper http://www.cooper.com/newsletters/2002_02/reconciling market segments and personas.htm offers good advice about how marketing segmentation compares to personas. On the other hand, if you're lucky, market segmentations may include useful behavioral and attitudinal information about how users related to the product, which should be incorporated into your persona.
+
+Persona Relationships
+When creating personas, it's easy to create too many personas to be useful. Typically you want between three and 12 personas of all types (although potentially you can have additional stakeholder minipersonas, if critically needed). The following methods are useful for consolidating personas, as well as understanding the relationships among your personas (from a design perspective). These relationships are also similar to the relationship among "actors" in the UML notation system used by some programmers.
+\begin{tabular}{|l|l|}
+\hline Resembles & Similar to another persona (may be able to satisfy personas with a similar design) \\
+\hline Special kind of & For example: "full-time sales clerk" and "temp sales clerk" are both specialized versions of "sales clerk" \\
+\hline Includes & More useful for role-intensive personas, for example: an editor includes the roles of "editing," "proofreading," "fact checking" and "production scheduling." \\
+\hline
+\end{tabular}
+
+Using Personas
+Once you've created your personas it's essential they become an active tool rather than being simply a check-off item. As mentioned in the introduction, one key use is to enable your team to live and breathe your users' world - and remembering the user's needs in building the product. "Bringing Your Personas to Life in Real Life" by Elan Freydenson
+http://www.boxesandarrows.com/archives/bringing your personas to life in real life.php and other articles have discussed how to sell personas to the team. Cooper's "Inmates are Running the Asylum" also discusses using personas with the wider team.
+
+So this toolkit skips over the consensus-building aspects and focuses on some techniques to use personas to guide development of the product's scope and lower-level design decisions about the product's behavior, content and presentation.
+
+As mentioned previously, some of the answers to the various questions are unclear at the beginning of the project. The toolkit is quite detailed and it's likely you may not have answers until you've done a thorough task analysis, or at least worked through scenarios of usage. That's fine. In a sense, the toolkit is intended to act like a good editor working with a novelist - constantly probing to clarify character motivation, the logic behind plot events, etc. So one of the main values of the toolkit questions is to be a reality check you can refer to as you iterate from the strategic to the concrete. At each stage, review how what you're doing supports the characteristics you've identified as being important.
+
+For in-depth look at the techniques for doing task analysis, I'd recommend "User and Task Analysis for Interface Design," By JoAnn T. Hackos \& Janice C. Redish, 1998 http://www.amazon.com/exec/obidos/ASIN/0471178314/interactionby-20/104-7330305-6449509
+
+Prioritizing Functionality/Content
+One of the frequent disputes in product development is what functionality or content should get the most visibility. There are two easy ways to create $2 \times 2$ matrixes to help guide these decisions.
+
+Method 1: Frequency of use and importance of functionality/content
+In this method, we plot the how frequently particular functionality/content is used and how important it is to helping achieve the persona's goal, resulting in four categories:
+
+High frequency, high importance - Make this most visible and most accessible
+Low frequency, high importance
+High frequency, low importance
+- Items in these two categories are both of secondary importance, and should be put in secondary positions, but their relative prominence will depend on the context of the particular items and the overall design.
+Personas creation/usage toolkit
+Page 14 of 18
+
+
+Low frequency, low importance (typically things like preferences) - Can be downplayed
+Method 2: Frequency of use and number of users
+In this method, we plot the how frequently particularly functionality/content is used and how many users use it, resulting in four categories:
+
+High frequency, high number of users - Make this most visible and most accessible
+Low frequency, high number of users
+High frequency, low number of users
+- Items in these two categories are both of secondary importance, and should be put in secondary positions, but their relative prominence will depend on the context of the particular items and the overall design.
+Low frequency, low number of users (typically things like preferences) - Can be downplayed
+Often it's useful to do both analyses, which can be a good way to break ties between items that were close in one analysis or the other. Likewise, it can be useful to do each analysis per persona, since the functionality/content desired by advanced users will often be different than that desired by novices. (One purpose of the second method is to take this into account, since novices are far more numerous.)
+
+How important (persona's goal) and how often?
+
+How many personas (or \% of users) and how often?
+\begin{tabular}{|l|l|l|}
+\hline & \begin{tabular}{l}
+Frequently by few \\
+Only some people will do it, but they'll do it often. Consider segmenting site/interface.
+\end{tabular} & Frequently by many Most people will do this, most of the time. Obviously, this should be the most prominent. \\
+\hline Fewer clicks & & \\
+\hline & \begin{tabular}{l}
+Occasionally by few \\
+Only some people will do it, and only occasionally. You can downplay this, but beware of burying it.
+\end{tabular} & \begin{tabular}{l}
+Occasionally by many \\
+Most people do it, but only occasionally. Make it secondary but still accessible.
+\end{tabular} \\
+\hline Persones & & \\
+\hline
+\end{tabular}
+
+
+Evaluating Fit Criteria
+One of the simplest but effective ways using personas is to take the characteristics you've collected from the lists above and transform them from how they are currently to how they ought to be to meet the persona's needs. To evaluate your solution ask the following "fit criteria" questions:
+
+Satisfaction fit criteria - If it was this way, how satisfied would be persona be?
+Dissatisfaction criteria - If the proposed solution was absent or failed to work, how dissatisfied would the persona be?
+It's important to ask this question in two ways, rather than thinking about a single linear scale of satisfaction. That's because there are often cases where the two values may different - in other words, the persona may not be more happy if something works well but unhappy if it doesn't, and vice versa. This is the basis of a sophisticated model, known as Kano analysis, developed for the auto industry. Kano measures two factors - product performance and resulting satisfaction - and comes up with four categories:
+
+Performance-base satisfaction - Things like gas mileage where satisfaction directly increases or decreases based on performance
+Expected must-haves - Things like brakes, where there's no reward for working well, but people get upset if it doesn't work
+Unexpected bonuses - Things like side airbags, where there's not an expectation that the product will include this, so there's no downside if it's missing. However, if it's present, it can become a major selling point because it's a pleasant surprise. (Things that started as unexpected bonuses such as cup holders - have a tendency to turn into expected must-haves over time.)
+Items of indifference - Things like a car's wire-harness, which the user doesn't think or car about.
+While Kano analysis is properly done using survey research and statistical analysis, if you've got a good understanding of your personas, you can use the Kano matrix based on how you think a persona would categorize a feature or functionality. It's admittedly qualitative, but it works effectively. The ranking scale is as follows:
+
+It must be that way
+I like it that way
+I'm neutral
+I can live with it that way
+I dislike it that way
+Not applicable (This was added to the Kano survey by its creator to eliminate misleading responses caused by the original forced choice list.)
+If you do so, this exercise, should be combined it with a forced ranking of the functionality, content, etc. being considered - again based on your understanding of the personas - to settle conflicts between requirements.
+"Customer-Centric Product Definition," Sheila Mello, 2001 provides a good description of how to do Kano analysis and forced ranking. http://www.amazon.com/exec/obidos/tg/detail/10814406688/ref=ase interactionby-20/104-7330305-6449509?v=alance\&s=books
+
+These descriptions of Kano categories and rating terms are my own. The original terms were badly translated from the Japanese and hurt both understanding on the analysis tool and the effectiveness of the tool itself in surveying. For more informational about Kano analysis, see "Kano's Method Special Issue," Center For Quality Management Journal, Fall 1993 http://cqmextra.cqm.org/cqmioumal.nsf/26b7214a5146923685256632007a6e83/d3ca60e8ab5b19d1852 56634006beb68?OpenDocument
+Personas creation/usage toolkit
+Page 16 of 18
+
+
+Useful Definitions
+Personas are one way of building a common language among the team. However, it's useful to have a common language to talk about and user personas. So while it's not directly part of personas, I've included definitions I've found useful in past projects.
+
+Content - Content is the equivalent of nouns, specifying what is on each screen. (For example, "The admin screen contains user profile information.")
+Functions - Functions are verbs, specifying what each screen and screen component does. (For example, "The admin screen enables admins to update user profiles.")
+Note: "Functions" are not necessarily the same thing as "functionality" since static elements, like page headers, can have a function.
+Attributes - Attributes are the desired characteristics of content and functionality - adjectives and adverbs, as it were. (For example, "The admin screen contains easily understood user profile information and allows admins to efficiently update user profiles.)
+
+Priority rankings
+Note: These rankings can also be used to rate things from the persona's point of view.
+Core - Without this, the product does not make sense.
+Note: "Core" is intended to identify key features that should be included in focus group testing or prototypes for early usability testing during development.
+Must - Something that must be included in the release, even if it means sacrificing other items.
+Want - Something that's desired, but can be sacrificed if needed.
+Frill - Something the team will be alert for the opportunity to add whenever they can, without sacrificing other functionality, content or desired attributes; adding additional costs; delaying the project or hurting quality.
+Ignore - Can be ignored during this development phase, or dropped from the project entirely. Note: Useful for ensuring people know what's out of scope.
+
+Feasibility rankings
+Doable - Possible to achieve now.
+Deferred - Not possible to do not, but can be achieved later.
+Potential - Impossible to do now because of specific conditions, but when these conditions change, it will be examined to see if it is achievable.
+Impossible - Absolutely impossible to achieve because of specific conditions (i.e. time, budget, technology, etc.). These conditions should be detailed.
+
+Level of difficulty
+Difficult - Will require extensive time, effort and/or budget. Should be doable, but may have a risk that it cannot be done as originally envisioned.
+Moderate - Some time, effort and/or budget are required. But should be accomplished without risk.
+Simple - Minimal time, effort and/or budget required.
+Constraints
+Note: These rankings can also be used to rate things from the persona's point of view.
+Absolute - We must bow to these constraints, even if it means sacrificing functionality, content, desired attributes or other priorities.
+Desired - We should try to stay within these constraints, but exceptions are possible for good reason.
+Preferred - While it's good to stay within these constraints, it's not essential.
+Acceptable Solutions
+Note: These rankings can also be used to rate things from the persona's point of view.
+Absolute requirement - A requirement that takes precedence over other requirements.
+Specific goal - A requirement that must meet a specific criteria.
+Personas creation/usage toolkit
+Page 17 of 18
+
+
+Variable goal - A requirement that can be met within a range of acceptable criteria.
+Potential idea - A solution that can be revised entirely as a result of other requirements, or changed or dropped if needed to satisfy higher-priority requirements.
+
+Definitions based on "Exploring Requirements: Quality Before Design," Donald C. Gause, Gerald M. Weinberg, 1989 http://www.amazon.com/exec/obidos/ASIN/0932633137/interactionby-20/104-73303056449509
+Personas creation/usage toolkit
+Page 18 of 18
