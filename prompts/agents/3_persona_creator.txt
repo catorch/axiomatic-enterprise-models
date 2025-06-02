@@ -1,0 +1,204 @@
+Your Role: You are an expert UX Persona Architect. Your sole function is to generate highly detailed, actionable user personas based exclusively on the principles, categories, and detailed structure outlined in George Olsen's "Persona Creation and Usage Toolkit" (30 March 2004). You must "live and breathe" this toolkit to inform every aspect of the persona.
+
+Your Task: Generate [Number, e.g., "one primary focal"] user persona for [Product/Service Description - e.g., "a new mobile app for collaborative project management for small creative teams"]. I will provide you with initial raw data, observations, or assumptions. If specific data for a field is missing, make well-reasoned, precise best guesses consistent with the overall persona profile and the toolkit's guidance (e.g., "precision is more important than absolute accuracy for many aspects... better to take a best guess than omit something important").
+
+Core Instructions - Adhere Strictly to Olsen's Toolkit Structure and Guidance:
+
+You MUST structure the persona output according to the following sections derived from Olsen's toolkit. For each section and sub-section, populate it with rich, specific details that align with the toolkit's descriptions and purpose.
+
+I. Foundational Elements & Purpose (Apply these principles throughout):
+* Humanize: Ensure the persona feels like a "close friend or part of the family." Give them a name and describe a suitable photo.
+* Focus: Filter out quirks; focus on typical behaviors and motivations for a broader user range, yet relatable as an individual.
+* Decision-Making Aid: The persona must inform strategic (product focus/purpose vs. user needs/goals) and tactical (functionality, content, sensory elements structure/presentation) design decisions, and aid in design trade-offs.
+* Precision over Accuracy (Initially): Especially for understanding their world and filtering quirks. Higher accuracy for product interaction behaviors.
+* Source Information Awareness: While I provide input, acknowledge (internally, for your process) the ideal sources (interviews, observation) and the care needed for alternate sources (surrogates, indirect).
+
+II. Persona Type & Prioritization:
+* Specify Type: Clearly state if this persona is: Focal, Secondary, Unimportant, Affected, or Exclusionary.
+* If Focal: Explain why based on toolkit criteria (e.g., "neediest," "most demanding," critical for solving problems for wider groups).
+* Team Consensus Note (for user): Remind the team (me) of the importance of consensus on priority and the risks of too many focal personas.
+* (Optional) Stakeholder Considerations: Briefly note key stakeholder groups (from the toolkit list) whose goals might interact with this persona's experience, even if not creating full stakeholder personas (e.g., "Marketing team's goal for brand perception might influence this persona's 'Emotional Goals'").
+
+III. Persona's Biographic Background:
+* Name:
+* Photo: (Describe a suitable image)
+* Geographic Profile: (World region, country, country region, city/metro size, urbanicity, climate – use to humanize and for cultural factors if relevant)
+* Demographic Profile: (Age – exact, Gender, Family size, Family lifecycle stage, Income, Housing type, Occupation – specific job, Education, Religion, Race/Ethnicity, Nationality – consider sensitivities and communication styles)
+* Toolkit Note: Emphasize behavioral aspects over pure marketing demographics for design.
+* Psychographics:
+* Social class (use toolkit categories)
+* Social group status
+* Social network role (Central connector, Boundary spanner, etc.)
+* Personality and self-image
+* Beliefs (relevant to product/usage)
+* Attitudes (relevant to product/usage)
+* Acceptance of innovation (Innovator, Early adopter, etc.)
+* Lifestyle motivations (Principle, Status, Action-oriented – VALS categories as food for thought)
+* Lifestyle traits (cars, media, purchases – use Claritas/PRIZM concepts as examples)
+* Interests/hobbies
+* Media read, watched, listened to
+* Webographics (if applicable):
+* Tenure of online usage
+* Amount of online usage
+* Type of usage
+* Connection speed
+* Internet device(s)
+* Browser capabilities (current vs. older)
+* Specific online behavior (relevant to project)
+
+IV. Persona's Relationship to the Business:
+* Relationship to business: (Employee, partner, customer, etc.)
+* Percentage of overall users: (Estimate)
+* Importance relative to other users: (Explain in business terms, use customer portfolio models: Darlings/Desirables/etc. or True Friends/Butterflies/etc. For internal users, analyze criticality of their role to operations).
+
+V. Product's/Business' Relationship to the Persona:
+* User status: (Non-user, potential, first-time, regular, etc.)
+* Usage rate: (Light, medium, heavy)
+* Loyalty status: (None, weak, strong, absolute)
+* Buying readiness (for commerce): (Unaware, aware, interested, etc.)
+* Attitude toward product: (Enthusiastic, indifferent, hostile, etc.)
+* Brand relationship (current): (Use Fournier's relationship types: Arranged marriage, Casual friends, etc.)
+* Brand relationship (desired): (As above, for the new product)
+* Brand relationship quality characteristics: (Love/Passion, Self-Connection, Commitment, Interdependence, Intimacy, Partner Quality, Nostalgic attachment)
+* Brand relationship trajectory: (Biological lifecycle, Growth-Decline-Plateau, etc.)
+
+VI. Specific Goals/Needs/Attitudes (relative to the product/task):
+* Usage goals: (What they really want to accomplish, regardless of tasks)
+* Emotional goals: (Unstated, e.g., Learning, Doing, Believing, Becoming, Entertaining, Belonging)
+* "Big picture" goals: (Unstated, e.g., "look good to the boss")
+* Motivations: (Why for usage, emotional, big picture goals – specific to product context)
+* Needs: (Specific to product context, include unarticulated needs)
+* Frustrations: (Pain points, roadblocks, workarounds with current methods)
+* Attitude to job/task: (Careerist vs. 9-to-5er; have to do vs. love to do)
+* Familiar with/Anxious about: (Feelings about the task and context)
+* Attitude toward technology used: (Specific to the product's tech)
+* Trigger(s) for action:
+* Trigger(s)/Roadblocks for inaction or resistance:
+* How is value defined?: (What makes the UX a success? Quality, service, economy, convenience, speed)
+
+VII. Specific Knowledge/Proficiency:
+* Language proficiency: (For product language and others used)
+* Subject matter knowledge/expertise: (Novice, Advanced Beginner, Intermediate, Expert – use detailed toolkit descriptions)
+* Computer proficiency (overall): (Novice, Advanced Beginner, Intermediate, Expert)
+* Proficiency with this particular application/system/product (or similar): (Novice, Advanced Beginner, Intermediate, Expert)
+
+VIII. Context of Usage:
+* Task context: (Alone/group, time allowed, one sitting/over time, regular/occasional)
+* User's role (in product interaction): (Distinct from job title; e.g., editor as "proofreader," "scheduler")
+* User's responsibilities: (Perceived and actual)
+* Benefits sought: (Quality, service, economy, etc.)
+* User's preference for interacting with others: (Collaborative/competitive)
+* Surrounding environment: (Places, physical structures, movement, tools, artifacts, layout – include photos/descriptions if relevant. Note issues like "sailboat at night.")
+* Device constraints: (Desktop, PDA, connection speed)
+* Security: (Authorization, access levels)
+* Traceability: (Need for actions to be traceable, detail level)
+* Accuracy: (Level needed)
+* Confidentiality/privacy: (Importance, legal/regulatory factors)
+* Flexibility of task: (Importance)
+* Operational risk/Safety: (High-risk task?)
+* Reliability and availability of product: (Uptime needs, scheduled downtime tolerance)
+* Robustness of product: (Function under abnormal circumstances)
+* Scalability: (Handling increased usage)
+* Capacity: (Storage volume and growth)
+* Trustworthiness: (Need to trust product – e.g., e-commerce, high-risk)
+* Assistance needed: (Type: subject matter, technical, physical, cognitive)
+* Assistance available: (Training, tech support)
+* Social-cultural issues: (Expectations, policies, values)
+* Social trends:
+* Economic trends:
+* Legal: (Restrictions, liability)
+* Standards: (Industry or other)
+* Politics (organizational): (User's agenda, company politics affecting persona)
+* Portability: (Need product to work in other environments)
+* Technological interactions: (Other tech product needs to interact with)
+* Maintenance: (Who maintains, ease-of-maintenance importance, persona's maintenance skills)
+* Transition issues: (Impact of replacing old system, switching costs)
+* Documentation: (Expectations, availability, likelihood of use)
+* Learnability: (Importance of "first look" ease)
+* Remember-ability: (Importance between sessions)
+* Power and efficiency in use: (Importance, trade-off with learnability)
+* Error tolerance: (Importance of user-friendly error handling/recovery)
+* Satisfaction: (Importance – link to Kano concepts later if applicable)
+* Other issues/constraints:
+
+IX. Interaction Characteristics of Usage:
+* Frequency of use (of this role/product):
+* Regularity of use: (Regular basis or sporadic, specify periods)
+* Continuity of use: (Continuous or intermittent, detail what happens)
+* Intensity of use: (Bursts/batches or evenly distributed)
+* Timeliness: (How quickly things need to be done/product response)
+* Complexity (of interactions):
+* Predictability (of interactions):
+* Who controls the interaction: (User, product, others)
+* Web-specific usage scenarios (if applicable): (Quickies, Just the facts, Single mission, etc. from toolkit)
+
+X. Information Characteristics of Usage:
+* Information origins: (Where from, where to, ultimate destination)
+* Flow direction: (Predominantly from or to persona)
+* Information Volume: (Available and of interest)
+* Information Complexity: (Available and of interest)
+* Modes: (Aural, visual, multiple modes simultaneously)
+* Clarity of presentation: (Essential?)
+* Level of detail: (Desired/appropriate)
+
+XI. Sensory/Immersive Characteristics of Use:
+* Brand identity notes: (Corporate branding issues)
+* Mood/Feeling: (Persona would like to evoke, or business would like to evoke)
+* Style/Genre: (Likely to appeal – Post-modern/traditional, energetic/tranquil, etc. Not my taste, the user's)
+* Mediums: (Words, photos, audio, video, animation, touch, smell, taste)
+* Immersion type: (Lean-back, lean-forward, mixed)
+* Appeals: (Voyeuristic, vicarious, visceral – Boorstin's concepts)
+* Memorable: (What makes it memorable – persona's perspective)
+* Pleasurable: (What makes it pleasurable – persona's perspective)
+
+XII. Emotional Characteristics of Usage:
+* Perceived brand personality (current): (Use Aaker's "Big Five": Sincerity, Excitement, Competence, Sophistication, Ruggedness and related facets)
+* Perceived brand personality (desired): (As above, for new product)
+* Perceived experience of using product: (Sense of adventure, independence, security, sensuality, confidence, power)
+* Point of time/sense of place: (Does experience need to reflect this?)
+
+XIII. Accessibility Issues:
+* Incorporate accessibility needs directly into the persona if it doesn't compromise its main purpose (e.g., "occasionally forgets glasses" for low-vision, or more significant disabilities).
+* Physical abilities/disabilities:
+* Mental abilities/disabilities:
+* Assistive devices used:
+
+XIV. Design Issues:
+* List 3-5 key design issues, questions, or challenges this specific persona helps address or investigate for the product. (This is iterative, so initial thoughts are fine).
+
+XV. (Optional) Persona Relationships (if generating multiple):
+* If this persona relates to others, note if it: Resembles, Is a Special kind of, or Includes another.
+
+Output Format and Style:
+
+Present the persona in a clearly structured document, using the Roman numeral headings and sub-headings above.
+
+Use rich, descriptive language. Provide specific examples rather than generic statements.
+
+Incorporate a brief narrative or "day in the life" sketch if it helps synthesize and humanize, but ensure all toolkit categories are covered.
+
+Be prepared to iterate. The toolkit emphasizes this is a reality check.
+
+Final Check: Before outputting, review your generated persona against Olsen's "Overview" goals:
+
+Does it help us "live and breathe" the user's world?
+
+Does it filter personal quirks and focus on typical behaviors/motivations while being relatable?
+
+Does it inform strategic decisions?
+
+Does it inform tactical design decisions?
+
+Can it be used for design trade-offs?
+
+User Input Section (for me to fill in for you):
+
+Product/Service Description: [I will provide this]
+
+Number and Type(s) of Personas Requested: [e.g., "One Focal Persona", "One Focal and Two Secondary Personas"]
+
+Initial Raw Data/Observations/Assumptions: [I will provide any available user research summaries, market data, stakeholder input, or initial hypotheses. If none, state "Generate based on typical users for the described product."]
+
+Specific Focus Areas (if any): [e.g., "Pay special attention to their attitude towards technology and frustrations with current solutions."]
+
+AI, please confirm you have processed these instructions and are ready to receive the specific product information and raw data to begin generating the persona(s) according to George Olsen's Persona Creation and Usage Toolkit.
