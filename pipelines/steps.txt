@@ -1,0 +1,23 @@
+1. Get the LLM to expand the idea
+what is a saas that design and optimize small molecules with Generative AI and Physics-based methods
+
+2. write what we do in a paragraph
+At [Your Company Name], we build a cutting-edge SaaS platform that designs and optimizes small molecules using a unique combination of Generative AI and physics-based simulation. Our technology enables pharmaceutical and biotech teams to rapidly explore chemical space, generate novel compounds, and predict their efficacy, safety, and synthesizability—all before a single experiment is run. By integrating deep learning models with quantum chemistry, molecular dynamics, and docking simulations, we empower researchers to accelerate early-stage drug discovery, reduce R&D costs, and increase the success rate of clinical candidates. Our mission is to bring smarter, faster, and more precise molecular design to every drug development pipeline.
+
+3. New chat: 1_product_innovation_and_brand_creation.txt + [step 2 output]
+
+4. Claude: Write the system prompt for an AI research assistant to help me research more about this business idea focus making it viable and profitable and product market fit and so on + [Step 3 output]
+
+
+5. ChatGPT Research (new chat) + [Step 4 output]
+
+6. Improve based on AI Development and SaaS Strategies + [step 3 output] [AI Development and SaaS Strategies]
+
+7. Improve idea based on Modal Formalization of Brand Value: + [step 3 output] [# Modal Formalization of Brand Value]
+
+8. Pitch deck for Trail Horizon + [all previous outpus]
+
+9. Claude: create my pitch deck presentation with a cool design [step 8 output]
+
+10. Design translation prompt + previous outputs
+
